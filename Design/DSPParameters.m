@@ -8,7 +8,7 @@ classdef DSPParameters < handle & matlab.mixin.CustomDisplay
 
     methods
         %% ==================================================
-        %% Constructor of the Meta Objects For ADC Parameters
+        %% Constructor of the Meta Objects For DSP Parameters
         %% ==================================================
         function obj = DSPParameters()
             Schema = obj.GetSchema();
