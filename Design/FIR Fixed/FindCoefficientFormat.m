@@ -1,7 +1,7 @@
 function [FixedFilterCoefficients, CoeffWL, CoeffIWL, ...
     CoeffFWL, CoeffScale] =  FindCoefficientFormat(...
    FilterCoefficients, Parameters, NPoint)
-%% =========================================================
+%% ==========================================================
 %% FIXED-POINT FIR COEFFICIENT RANGE AND RESOLUTION SELECTION 
 %% ==========================================================
 
