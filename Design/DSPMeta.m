@@ -56,7 +56,7 @@ classdef DSPMeta < handle
                 obj.Unit = string(Unit);
             end
             
-            %% Acceptable Datatypes List For ADC Parameters 
+            %% Acceptable Datatypes List For DSP Parameters 
             AllowedType = {'double', 'single', 'int8', 'int16', ...
                            'int32','int64', 'uint8', 'uint16', 'uint32', ... 
                            'uint64', 'embedded.fi', 'fi'};
